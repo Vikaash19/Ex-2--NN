@@ -2,15 +2,15 @@
 <H3>Register no.: 212223240179</H3>
 <H3>Experiment No. 2 </H3>
 
-## Implementation of Perceptron for Binary Classification
-# AIM:
+# Implementation of Perceptron for Binary Classification
+## AIM:
 To implement a perceptron for classification using Python<BR>
 
-# EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-# RELATED THEORETICAL CONCEPT:
+## RELATED THEORETICAL CONCEPT:
 A Perceptron is a basic learning algorithm invented in 1959 by Frank Rosenblatt. It is meant to mimic the working logic of a biological neuron. The human brain is basically a collection of many interconnected neurons. Each one receives a set of inputs, applies some sort of computation on them and propagates the result to other neurons.<BR>
 A Perceptron is an algorithm used for supervised learning of binary classifiers.Given a sample, the neuron classifies it by assigning a weight to its features. To accomplish this a Perceptron undergoes two phases: training and testing. During training phase weights are initialized to an arbitrary value. Perceptron is then asked to evaluate a sample and compare its decision with the actual class of the sample.If the algorithm chose the wrong class weights are adjusted to better match that particular sample. This process is repeated over and over to finely optimize the biases. After that, the algorithm is ready to be tested against a new set of completely unknown samples to evaluate if the trained model is general enough to cope with real-world samples.<BR>
 The important Key points to be focused to implement a perceptron:
@@ -32,7 +32,7 @@ A threshold function, usually Heaviside or sign functions, maps the scalar value
 Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.<BR>
 
 
-# ALGORITHM:
+## ALGORITHM:
 STEP 1: Importing the libraries<BR>
 STEP 2:Importing the dataset<BR>
 STEP 3:Plot the data to verify the linear separable dataset and consider only two classes<BR>
@@ -48,7 +48,7 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
         W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)<BR>
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
-# PROGRAM:
+## PROGRAM:
 ```
 import numpy as np
 import pandas as pd
@@ -129,7 +129,7 @@ plt.xlabel('Epoch')
 plt.ylabel('Errors')
 plt.show()
 ```
-# OUTPUT:
+## OUTPUT:
 <img width="373" height="130" alt="1 exp2 output " src="https://github.com/user-attachments/assets/7dc28e95-ede7-424f-9698-9f3322db89e9" />
 
 <img width="596" height="517" alt="2 exp2 iris dataset" src="https://github.com/user-attachments/assets/814e06f7-0f0f-4f00-ad6d-cffc656396b8" />
@@ -139,7 +139,6 @@ plt.show()
 <img width="771" height="548" alt="image" src="https://github.com/user-attachments/assets/43640bf2-0443-4b4f-97be-74741c9bc041" />
 
 
-# RESULT:
+## RESULT:
  Thus, a single layer perceptron model is implemented using python to classify Iris data set.
-
  
