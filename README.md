@@ -1,6 +1,7 @@
-<img width="771" height="548" alt="4 error and epochs" src="https://github.com/user-attachments/assets/adcfbbbb-2cb9-483c-a9cd-a197b82fc72d" /><H3>Name: Vikaash K S</H3>
+<H3>Name: Vikaash K S</H3>
 <H3>Register no.: 212223240179</H3>
 <H3>Experiment No. 2 </H3>
+
 ## Implementation of Perceptron for Binary Classification
 # AIM:
 To implement a perceptron for classification using Python<BR>
